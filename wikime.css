@@ -1,0 +1,290 @@
+body{
+  padding-left: 10%;
+  padding-top: .85%;
+  width: 90%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  color: #ececec;
+  background-color: #22313F;
+}
+caption{
+  color: #ececec;
+}
+span{
+  white-space: normal;
+}
+h1{ font-size: 55px; }
+h2 { font-size: 35px; }
+table{
+  background-color: #ececec !important;
+  color: #22313F;
+  border-collapse: initial !important;
+  width: initial;
+  /*width: auto;*/
+}
+table a{
+  color: #22313F;
+}
+table a:hover{
+  color: #59ABE3;
+}
+table.infobox,
+table.infobox.geography.vcard,
+table.vertical-navbox.vcard,
+table.infobox.vcard,
+table.infobox.geography,
+table.vertical-navbox.nowraplinks.vcard.hlist{
+  float: right;
+  clear: right;
+  margin: 0 0 1.0em 1.0em;
+  background: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 0.2em;
+  border-spacing: 0.4em 0;
+  text-align: left;
+  line-height: 1.7em;
+  font-size: 88%;
+  width: 25em !important;
+  letter-spacing: initial !important;
+  background-color: #ececec;
+}
+table.vertical-navbox.nowraplinks.vcard.hlist tbody tr td ul{
+  text-align: left;
+}
+table.wikitable{
+  /*width: 100%;*/
+  width: 98%;
+}
+/*table.navbox,*/
+table.infobox,
+table.multicol,
+table.wikitable,
+table.wikitable.sortable,
+table.wikitable.plainrowheaders,
+table.wikitable.collapsible,
+table.wikitable.succession-box.collapsible.autocollapse{
+  width: inherit;
+  padding: 0.2em;
+  border-spacing: 0.4em 0;
+  text-align: initial !important;
+  background-color: #ececec;
+}
+blockquote{
+  font-size: 15.5px !important;
+}
+a {
+  color: #59ABE3;
+}
+a:hover {
+  color: #C5EFF7;
+}
+p {
+  padding-top: 5px;
+}
+sup{
+  top: -1.1em;
+  font-size: 60%;
+}
+code{
+  background-color: #22313F;
+  color: #e67e22;
+}
+.label{
+  color: inherit;
+}
+#siteSub,
+#jump-to-nav,
+.mw-indicator{
+  display: none;
+}
+.ui-menu{
+  width: 49.4%;
+}
+.ui-menu-item {
+  position: relative;
+  left: -8.6%;
+  padding: 10px 10px 10px 20px;
+  background-color: #fff;
+  width: 80%;
+  color: #2c3e50;
+  list-style-type: none;
+  cursor: pointer;
+  border-top: .5px solid gray;
+  overflow: hidden;
+}
+.ui-menu-item:visited,
+.ui-menu-item:hover{
+  background-color: #e67e22 !important;
+}
+.mw-redirectedfrom{
+  margin-left: -1%;
+}
+.fn.org,
+.fn.summary,
+.summary,
+.nv-view,
+.nv-talk,
+.nv-edit,
+.plainlinks.hlist.navbar.mini {
+  display: none;
+}
+.noresize{
+  width: inherit !important;
+}
+.hatnote{
+  margin: 15px 0 15px 0px;
+}
+.NavHead{
+  text-align: left;
+}
+.NavFrame .NavContent table tbody tr td{
+  background-color: #ececec;
+}
+.thumb.tleft{
+  width: inherit;
+  float: left;
+  clear: left;
+  background-color: #ececec;
+  margin: 5px 15px 5px 0;
+  font-size: 10px;
+  color: #22313F;
+  border-radius: 15px;
+}
+
+.thumb.tright{
+  width: inherit;
+  float: right;
+  clear: right;
+  background-color: #ececec;
+  margin: 5px 0 5px 15px;
+  font-size: 10px;
+  color: #22313F;
+  border-radius: 15px;
+}
+.thumb.tnone{
+  float: left;
+  clear: left;
+  background-color: #ececec;
+  margin: 5px 15px 5px 0;
+  font-size: 10px;
+  color: #22313F;
+  border-radius: 15px;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+img.thumbimage,
+.thumb.tmulti.tleft .thumbinner .tsingle .thumbimage .image img,
+.thumb.tmulti.tright .thumbinner .tsingle .thumbimage .image img,
+.thumb.tnone .thumbinner .overflowbugx .image img,
+.center .thumb.tnone .thumbinner {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100% !important;
+  height: 100%;
+}
+.tsingle{
+  /*margin: 0px !important;*/
+  /*width: inherit !important;*/
+  max-width: 100% !important;
+}
+.thumbcaption{
+  padding: 15px;
+}
+.thumbcaption a{
+  color: #22313F;
+}
+.thumbcaption a:hover {
+  color: #59ABE3;
+}
+.barbox.tleft{
+  background-color: #ececec !important;
+}
+.mw-editsection{
+  display: none;
+}
+.navbox{
+  font-size: 10px;
+  width: 100%;
+  padding: 5px;
+}
+.reference{
+  font-size: 6px;
+}
+.infobox.vevent{
+  float: right;
+  clear: right;
+}
+.quotebox,
+.quotebox a{
+  color: #22313F;
+  background-color: #ececec !important;
+}
+.mbox-small{
+  width: auto;
+  float: right;
+  clear: right;
+  padding: 15px;
+  font-size: 88%;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.reflist.references-column-width,
+.reflist.columns.references-column-width,
+.refbegin.references-column-width{
+  font-size: 10px;
+}
+.panel {
+  position: fixed;
+  left: -20.625em; /*left or right and the width of your navigation panel*/
+  width: 20.625em; /*should match the above value*/
+}
+#toc.toc{
+  background-color: #1d1d1d;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 13px;
+  padding: 0px 10px 0px 10px;
+  z-index: 99999;
+}
+#hamburger{
+  font-size: 30px;
+  position: absolute;
+  left: 3%;
+  top: 20%;
+  background-color: #e67e22;
+  color: #fff;
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+header{
+  height: 40px;
+  left: -0.5%;
+  position: fixed;
+  top: 4%;
+  transition: top 0.2s ease-in-out;
+  width: 98%;
+}
+.nav-up {
+    top: -75px;
+}
+dl{
+  background-color: #ececec;
+}
+dt{
+  color: #22313F;
+  padding: 5px;
+}
+dd {
+  color: #22313F;
+}
+.toc{
+  margin: 5px 0 5px 0 !important;
+}
+.navbox ul{
+  columns: 2;
+  list-style-type: none;
+  padding: 5px;
+  border: .25px grey solid;
+}
+
